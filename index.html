@@ -1,0 +1,179 @@
+
+<html>
+<head>
+    <title>Font-End Dev Web</title>
+    <link rel="stylesheet" href="style copy.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+</head>
+<body>
+<section id="banner">
+    <img src="figo.jpg" class="logo">
+    <div class="banner-text">
+        <h1>Hi! I'am FINHANE</h1>
+        <p>Junior Front-End Developer</p>
+        <div class="banner-btn">
+            <a href="#"><span></span>Hire Me</a>
+            <a href="#"><span></span>Projects</a>
+        </div>
+    </div>
+</section>
+
+<div id="sidenav">
+    <nav>
+     <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">SKILLS</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+     </ul>   
+    </nav>
+</div>
+<div id="menuBtn">
+    <img src="menu.png" id="menu">
+</div>
+<!--service-->
+
+
+<section id="service">
+<div class="title-text">
+<p>SKILLS</p>
+<h1>Tools I Use for Development</h1>
+
+</div>
+<div class="service-box">
+    <div class="services">
+        <h1>Web Front-End Structurer</h1>
+        <div class="services-desc">
+            <div class="service-icon">
+                <i class="fa-brands fa-html5 fa-beat-fade fa-2xl" style="color: #fd6d0d;"></i>
+            </div>
+            <div class="service-text">
+                 <p>As the saying goes, there is always something new to learn.</p>
+                 <p>Making Front-End and designs</p>
+                 <p>So much fun with this great Structurer tool</p>
+            </div>
+
+        </div>
+        <h1>Great Web Front-End Styling Tool</h1>
+        <div class="services-desc">
+            <div class="service-icon">
+                <i class="fa-brands fa-css3-alt fa-spin fa-2xl" style="color: #246be5;"></i>
+            </div>
+            <div class="service-text">
+                <p>Taking your ideias to another level.</p>
+                <p>Using CSS with especial care, to style the UI!</p>
+            </div>
+        </div> 
+         <h1>One Of the Most Used Programming Language</h1>
+         <div class="services-desc">
+             <div class="service-icon">
+                <i class="fa-brands fa-js fa-spin fa-spin-reverse fa-2xl" style="color: #f1f513;"></i>
+             </div>
+             <div class="service-text">
+                 <p>Learning and Using JavaScript to make everything</p>
+                 <p>functional and beautiful!</p>
+             </div>
+    <div class="services-img">
+    </div> 
+    
+</div>
+</section>
+<section id="Works">
+    <div class="title-text">
+    <p>PROJECTS</p>
+    <h1>Work with Profesionalism</h1>
+    </div>
+    <div class="Works-box">
+        <div class="Simple-works">
+            <img src="A.png">
+            <div class="overlay"></div>
+            <div class="Works-desc">
+                <h3>School Landing Page</h3>
+                <hr>
+                <p>This School Landing page was done using simple components and elements</p>
+            </div>
+        </div>
+        <div class="Simple-works">
+            <img src="E.png">
+            <div class="overlay"></div>
+            <div class="Works-desc">
+                <h3>E-Commerce</h3>
+                <hr>
+                <p>This is a first page E-commerce web design</p>
+            </div>
+
+        </div>
+        <div class="Simple-works">
+            <img src="F.png">
+            <div class="overlay"></div>
+            <div class="Works-desc">
+                <h3>Login Page</h3>
+                <hr>
+                <p>Another Project to Shocase my skills Using HTML, CSS, & JAVASCRIPT</p>
+            </div>
+        </div>
+        <div class="Simple-works">
+            <img src="T.png">
+            <div class="overlay"></div>
+            <div class="Works-desc">
+                <h3>Movie Website Landing Page</h3>
+                <hr>
+                <p>Online movie first page with simple elements</p>
+            </div>
+        </div>
+    </div>
+
+ </section>
+
+
+ <!--footer-->
+ 
+ <section id="footer">
+    <div class="title-text">
+    <p>Contact</p>
+    <h1>Reach Out For More Information</h1>
+    </div>
+    <div class="footer-row">
+        <div class="footer-left">
+            
+        </div>
+        <div class="footer-right">
+            <h1>Contact</h1>
+            <a href=""></a><p>finhaneartur@gmail.com <i class="fa fa-envelope"></i></p>
+            <p><i class="fa-brands fa-telegram"></i></p>
+            <p><i class="fa-brands fa-github"></i></p>
+        </div>
+        </div>
+
+        <div class="social-links">
+            <!--i class="fa-brands fa-facebook"></i-->
+            <p> &copy; FINHANE ARTUSA</p>
+        </div>
+
+ </section>
+
+
+
+<script>
+var menuBtn = document.getElementById("menuBtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px";
+
+menuBtn.onclick = function() {
+    if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0";
+        menu.src = "Images/close.png";
+    }
+    else{
+        sidenav.style.right = "-250px";
+        menu.src = "Images/menu.png";
+    }
+}
+</script>
+
+</body>
+</html>
